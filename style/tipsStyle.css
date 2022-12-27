@@ -1,0 +1,85 @@
+/*Selector Universal*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*Selector de etiqueta*/
+header{
+    background-color: #c4c4c4;
+    width: 100%;
+    height: 145px;
+    overflow: hidden;/*los elementos se queden dentro, al aplicar float*/
+    top: 0px;
+}
+section{
+    height: 400px;
+    width: auto;
+}
+td{
+    width: 700px;
+}
+h2{
+    padding-left: 10px;
+    font-size: 25px;
+}
+ol{
+    font-size: 30px;
+    padding-left: 30px;
+}
+/*Selector de clases*/
+.imgmenu{
+    width: auto;
+    height: 100px;
+}
+.submenu{   
+    position: absolute;
+    background-color: #c4c4c4;
+    display: none;
+}
+.imgSecTip{
+    width: auto;
+    height: 250px;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+/*Selector identificador*/
+#publicidad{
+    background-color: #424242;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;/*los elementos se queden dentro, al aplicar float*/
+    color: #f2f2f2;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+#bannerTips{
+    width: 100%;
+    height: auto;
+}
+/*Selector descendente*/
+header nav{
+    padding-top: 25px;
+    float: right;
+    color: #ffffff; 
+    width: 70%;
+    font-size: 22px;
+}
+header nav a{
+    color: #000000;
+    text-decoration: none;
+}
+header nav ul{
+    list-style: none;/*quitar el punto de la viñeta*/
+    display: flex;/*elementos en horizontal*/
+    padding: 0.5em;
+    justify-content: space-around;
+}
+.menu li:hover .submenu{
+    display: block;
+}
+.submenu li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: #f2f2f2 1px solid;
+}
