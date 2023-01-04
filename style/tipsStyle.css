@@ -15,9 +15,6 @@ section{
     height: 400px;
     width: auto;
 }
-td{
-    width: 700px;
-}
 h2{
     padding-left: 10px;
     font-size: 25px;
@@ -26,7 +23,22 @@ ol{
     font-size: 30px;
     padding-left: 30px;
 }
+h3{
+    color: red;
+    font-size: 20px;
+}
+h4{
+    color: #000000;
+}
+footer{
+    background-color: #c4c4c4;
+    width: 100%;
+    height: 500px;
+}
 /*Selector de clases*/
+.sectTd{
+    width: 700px;
+}
 .imgmenu{
     width: auto;
     height: 100px;
@@ -39,8 +51,58 @@ ol{
 .imgSecTip{
     width: auto;
     height: 250px;
-    padding-left: 10px;
+    padding-left: 10px; 
     padding-top: 30px;
+}
+.botones{
+    margin-left: 30%;
+    height: 100px;
+}
+.boton{
+    color: #000000;
+    display: inline;
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 25px;
+}
+.boton:hover{
+    background-color: red;
+    color: #f2f2f2;
+}
+.informar{
+    padding: 0px 100px ;
+}
+.text{
+    font-size: 23px;
+}
+.suscribir{
+    color: #f2f2f2;
+    background-color: red;
+    margin-left: 20%;
+    padding: 0px 10px;
+    font-size: 20px;
+}
+.imgfooter{
+    height: 80px;
+    margin-right: 60%;
+}
+.footerColumna{
+    width: 30%;
+    height: 240px;
+    font-size: 22px;
+    text-align: center;
+    color:#424242;
+}
+.linea{
+    height: 2px;
+    width: 90%;
+    margin: 10px;
+}
+.novedad{
+    padding: 10px;
+    border: 3px solid white;
+    color: #000000;
+    font-size: 24px;
 }
 /*Selector identificador*/
 #publicidad{
@@ -56,6 +118,20 @@ ol{
 #bannerTips{
     width: 100%;
     height: auto;
+}
+#box{
+    margin: 10px 0px;
+    border: 1px solid #000000 ;
+    color: #929292;
+    height: 25px;
+    width: 200px;
+    font-size: 20px;
+}
+#copyR{
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    padding: 30px 0px;
 }
 /*Selector descendente*/
 header nav{
