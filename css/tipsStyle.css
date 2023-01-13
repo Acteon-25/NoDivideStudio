@@ -41,7 +41,7 @@ footer{
 }
 .imgmenu{
     width: auto;
-    height: 100px;
+    height: 70%;
 }
 .submenu{   
     position: absolute;
@@ -108,7 +108,7 @@ footer{
 #publicidad{
     background-color: #424242;
     width: 100%;
-    height: 40px;
+    height: 30%;
     overflow: hidden;/*los elementos se queden dentro, al aplicar float*/
     color: #f2f2f2;
     text-align: center;
@@ -135,7 +135,7 @@ footer{
 }
 /*Selector descendente*/
 header nav{
-    padding-top: 25px;
+    padding-top: 35px;
     float: right;
     color: #ffffff; 
     width: 70%;
