@@ -103,7 +103,47 @@ header nav ul{
     color: #f2f2f2;
     text-align: center;
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 30px;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: auto;
+}
+.container .card{
+    width: 330px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.container .card img{
+    width: 330px;
+    height: 220px;
+}
+.container .card h4{
+    font-weight: 600;
+}
+.container .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+.container .card a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
 }
 .barra1{
     background-color: #C82033;
@@ -113,7 +153,47 @@ header nav ul{
     color: #f2f2f2;
     text-align: center;
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 30px;
+}
+.container1{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: auto;
+}
+.container1 .card1{
+    width: 330px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+.container1 .card1:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.container1 .card1 img{
+    width: 250px;
+    height: 220px;
+}
+.container1 .card1 h4{
+    font-weight: 600;
+}
+.container1 .card1 p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+.container1 .card1 a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
 }
 .barra2{
     background-color: #C82033;
@@ -123,7 +203,47 @@ header nav ul{
     color: #f2f2f2;
     text-align: center;
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 30px;
+}
+.container2{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: auto;
+}
+.container2 .card2{
+    width: 330px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+.container2 .card2:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.container2 .card2 img{
+    width: 250px;
+    height: 220px;
+}
+.container2 .card2 h4{
+    font-weight: 600;
+}
+.container2 .card2 p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+.container2 .card2 a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
 }
 .barra3{
     background-color: #C82033;
@@ -133,9 +253,48 @@ header nav ul{
     color: #f2f2f2;
     text-align: center;
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 30px;
 }
-/* Footer*/
+.container3{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: auto;
+}
+.container3 .card3{
+    width: 330px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+.container3 .card3:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.container3 .card3 img{
+    width: 330px;
+    height: 220px;
+}
+.container3 .card3 h4{
+    font-weight: 600;
+}
+.container3 .card3 p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+.container3 .card3 a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
 h4{
     color: #000000;
 }
@@ -171,27 +330,4 @@ footer{
     font-size: 25px;
     text-align: center;
     padding: 30px 0px;
-}
-.container{
-    width: 100%;
-    max-width: 1200px;
-    height: 430px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
-}
-.container .card{
-    width: 330px;
-    height: 430;
-    border-radius: 8px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    margin: 20px;
-    text-align: center;
-    transition: all 0.25s;
-}
-.container .card:hover{
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
