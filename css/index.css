@@ -6,11 +6,11 @@
 #publicidad{
   background-color: #424242;
   width: 100%;
-  height: 40px;
+  height: 30px;
   overflow: hidden;/*los elementos se queden dentro, al aplicar float*/
   color: #f2f2f2;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 7px;
   font-size: 20px;
 }
 
@@ -45,11 +45,11 @@
 }
 
 header nav{
-  padding-top: 25px;
+  padding-top: 35px;
   float: right;
   color: #ffffff; 
   width: 70%;
-  font-size: 22px;
+  font-size: 25px;
 }
 header nav a{
   color: #000000;
@@ -85,7 +85,7 @@ header nav a:hover{
 #logo-colinial {
   float: left;
   width: auto;
-  height: 100px;
+  height: 70%;
   padding-left: 5px;
 
 }
