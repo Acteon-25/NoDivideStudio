@@ -123,6 +123,7 @@ header nav ul{
     margin: 20px;
     text-align: center;
     transition: all 0.25s;
+    background-color: #F2D7D5;
 }
 .container .card:hover{
     transform: translateY(-15px);
@@ -173,6 +174,7 @@ header nav ul{
     margin: 20px;
     text-align: center;
     transition: all 0.25s;
+    background-color: #F2D7D5;
 }
 .container1 .card1:hover{
     transform: translateY(-15px);
@@ -223,6 +225,7 @@ header nav ul{
     margin: 20px;
     text-align: center;
     transition: all 0.25s;
+    background-color: #F2D7D5;
 }
 .container2 .card2:hover{
     transform: translateY(-15px);
@@ -273,6 +276,7 @@ header nav ul{
     margin: 20px;
     text-align: center;
     transition: all 0.25s;
+    background-color: #F2D7D5;
 }
 .container3 .card3:hover{
     transform: translateY(-15px);
