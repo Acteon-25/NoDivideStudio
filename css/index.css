@@ -22,14 +22,6 @@ body {
   font-weight: bold;
 }
 
-.navbar-nav li a:hover {
-  border-bottom: 2px solid black;
-}
-
-.nav-link:hover {
-  border-bottom: 2px solid black;
-}
-
 nav {
   margin-bottom: 1em;
 }
@@ -104,12 +96,6 @@ nav {
 .my-container-col .text-center {
   margin-top: 1.0em;
   font-weight: bold;
-}
-
-#col-colchones{
-  border-radius: 50%;
-  width: 250px;
-  margin: 20px;
 }
 
 .colecciones {
@@ -235,9 +221,12 @@ nav {
   object-fit: cover;
 }
 
+
+
 .h4-footer{
   color: #000000;
 }
+
 footer{
   margin-top: 50px;
   background-color: #c4c4c4;
