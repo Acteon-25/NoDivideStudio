@@ -4,24 +4,9 @@
     margin: 0px;
 }
 /*selector de etiqueta*/
-header{
-    background-color: #c4c4c4;
-    width: 100%;
-    height: 145px;
-    overflow: hidden;/*los elementos se queden dentro, al aplicar float*/
-    top: 0px;
-}
+
 /*selector de clases*/
-.imgmenu{
-    height: 70%;
-    width: auto;
-    padding-left: 5px;
-}
-.submenu{
-    position: absolute;
-    background-color: #c4c4c4;
-    display: none;
-}
+
 /*selector de #####*/
 #publicidad{
     background-color: #424242;
@@ -34,31 +19,7 @@ header{
     font-size: 20px;
 }
 /*selector descendente*/
-header nav{
-    padding-top: 35px;
-    float: right;
-    color: #ffffff; 
-    width: 70%;
-    font-size: 25px;
-}
-header nav a{
-    color: black;
-    text-decoration: none;
-}
-header nav ul{
-    list-style: none;/*quitar el punto de la viñeta*/
-    display: flex;/*elementos en el horizontal*/
-    padding: 0.5em;
-    justify-content: space-around;
-}
-.menu li:hover .submenu{
-    display: block;
-}
-.submenu li{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-bottom: #f2f2f2 1px solid;
-}
+
 .slider{
     width: 95%;
     margin: auto;
@@ -99,11 +60,10 @@ header nav ul{
 .barra{
     background-color: #C82033;
     width: 100%;
-    height:40px;
+    height:45px;
     overflow: hidden;/*los elementos se quedan dentro, al aplicar float*/
     color: #f2f2f2;
     text-align: center;
-    padding-top: 10px;
     font-size: 30px;
 }
 .container{
@@ -150,11 +110,10 @@ header nav ul{
 .barra1{
     background-color: #C82033;
     width: 100%;
-    height:40px;
+    height: 45px;
     overflow: hidden;/*los elementos se quedan dentro, al aplicar float*/
     color: #f2f2f2;
     text-align: center;
-    padding-top: 10px;
     font-size: 30px;
 }
 .container1{
@@ -201,11 +160,10 @@ header nav ul{
 .barra2{
     background-color: #C82033;
     width: 100%;
-    height:40px;
+    height: 45px;
     overflow: hidden;/*los elementos se quedan dentro, al aplicar float*/
     color: #f2f2f2;
     text-align: center;
-    padding-top: 10px;
     font-size: 30px;
 }
 .container2{
@@ -252,11 +210,10 @@ header nav ul{
 .barra3{
     background-color: #C82033;
     width: 100%;
-    height:40px;
+    height:45px;
     overflow: hidden;/*los elementos se quedan dentro, al aplicar float*/
     color: #f2f2f2;
     text-align: center;
-    padding-top: 10px;
     font-size: 30px;
 }
 .container3{
@@ -303,11 +260,6 @@ header nav ul{
 h4{
     color: #000000;
 }
-footer{
-    background-color: #c4c4c4;
-    width: 100%;
-    height: 500px;
-}
 .imgfooter{
     height: 80px;
     margin-right: 60%;
@@ -319,20 +271,68 @@ footer{
     text-align: center;
     color:#424242;
 }
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+nav {
+  margin-bottom: 1em;
+}
+.navbar-nav .nav-link {
+  font-size: 18px;
+  margin: 0 40px;
+}
+.img-fluid{
+  max-width: 300px; 
+  width: 256px;
+  height: 77px;
+  margin-left: 30px;
+}
+.navbar {
+  background-color: #f3f5f6 !important;
+}
+.navbar-nav li a {
+  color: #000000;
+  font-weight: bold;
+}
+.my-jumbotron{
+  padding-top: 0.5em;
+  background-color: #4E4E4E;
+  height: 3em;
+}
+.my-jumbotron p {
+  color: #ffffff;
+}
+
+footer{
+  margin-top: 50px;
+  background-color: #c4c4c4;
+  width: 100%;
+  height: 390px;
+}
 .linea{
-    height: 2px;
-    width: 90%;
-    margin: 10px;
+  height: 2px;
+  width: 90%;
+  margin: 10px;
+  margin-top: 1.5em;
 }
 .novedad{
-    padding: 10px;
-    border: 3px solid white;
-    color: #000000;
-    font-size: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000; /* para darle color al texto del botón */
+  border: solid 2px #ffffff; /* para quitar el borde al botón */
+  padding: 15px 70px; /* para darle espacio al texto del botón */
+  text-align: center; /* para centrar el texto del botón */
+  cursor: pointer; /* para cambiar el cursor al pasar sobre el botón */
+  font-size: 20px;
+  margin-top: 2.0em;
+  margin-bottom: 2.0em;
 }
 #copyR{
-    height: 50px;
-    font-size: 25px;
-    text-align: center;
-    padding: 30px 0px;
+  height: 55px;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px 0px;
+}
+.footerColumna a {
+  cursor: pointer;
 }
