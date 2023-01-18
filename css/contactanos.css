@@ -1,0 +1,160 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-nav .nav-link {
+  font-size: 18px;
+  margin: 0 40px;
+}
+
+.img-fluid{
+  max-width: 300px; 
+  width: 256px;
+  height: 77px;
+  margin-left: 30px;
+}
+.navbar {
+  background-color: #f3f5f6 !important;
+}
+
+.navbar-nav li a {
+  color: #000000;
+  font-weight: bold;
+}
+
+nav {
+  margin-bottom: 1em;
+}
+
+.my-jumbotron{
+  padding-top: 0.5em;
+  background-color: #4E4E4E;
+  height: 3em;
+}
+.my-jumbotron p {
+  color: #ffffff;
+}
+
+.my-container img{
+  max-width: 100%;
+  height: auto; 
+
+}
+
+.h1{
+  color: #12133b;
+  font-weight: bold;
+  margin-top: 3.0em;
+}
+
+.h6 {
+  color: #12133b;
+  margin-top: 2.0em;
+}
+
+.text-2 {
+  font-weight: bold;
+  color: #12133b;
+  margin-top: 2.0em;
+  margin-bottom: 1.0em;
+}
+
+.text-3 {
+  color: #12133b;
+  
+}
+
+.title-form {
+  text-align: center;
+  font-weight: bold;
+  color: #12133b;
+}
+
+.sub-form {
+  text-align: center;
+  color: #12133b;  
+}
+
+.form label{
+  font-weight: bold;
+  color: #12133b;
+}
+
+.product-form {
+  margin-left: 1.5em;
+}
+
+.btn {
+  align-items: center;
+}
+
+.btn-form {
+  margin-top: 1.0em;
+}
+
+.con{
+  margin-top: 3.0em;
+}
+
+.nombre{
+  margin-top: 1.0em;
+  margin-bottom: 1.0em;
+}
+
+.mensaje{
+  margin-top: 1.0em;
+} 
+
+.h4-footer{
+  color: #000000;
+}
+
+.container-fluid {
+  background-color: #c4c4c4;
+  margin-top: 5.0em;
+}
+
+.imgfooter{
+  height: 80px;
+  margin-right: 60%;
+}
+.footerColumna{
+  width: 30%;
+  height: 240px;
+  font-size: 22px;
+  text-align: center;
+  color:#424242;
+}
+.linea{
+  height: 2px;
+  width: 90%;
+  margin: 10px;
+  margin-top: 1.5em;
+}
+.novedad{
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000; /* para darle color al texto del botón */
+  border: solid 2px #ffffff; /* para quitar el borde al botón */
+  padding: 15px 70px; /* para darle espacio al texto del botón */
+  text-align: center; /* para centrar el texto del botón */
+  cursor: pointer; /* para cambiar el cursor al pasar sobre el botón */
+  font-size: 20px;
+  margin-top: 2.0em;
+  margin-bottom: 2.0em;
+}
+#copyR{
+  height: 55px;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.footerColumna a {
+  cursor: pointer;
+}
+
+.footer-asd {
+  background-color: #c4c4c4;
+  margin-top: 5.0em
+}
