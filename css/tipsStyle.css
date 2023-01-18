@@ -23,10 +23,13 @@ h3{
 h4{
     color: #000000;
 }
-
+table{
+    width: 100%;
+}
 /*Selector de clases*/
 .sectTd{
-    width: 700px;
+    width: 50%;
+    background-color: #f2f2f2;
 }
 .imgmenu{
     width: auto;
