@@ -71,6 +71,41 @@ nav {
   margin-bottom: 1.5em;
 }
 
+.text-margin {
+  margin-top: 2.0em;
+}
+
+.my-container-col a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.my-container-col p {
+  color: #000000;
+}
+
+.my-container-col img{
+  width: 250px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.my-container-col img:hover {
+  transform: scale(1.1);
+
+}
+
+.my-container-col .h3 {
+  font-weight: bold;
+  margin-left: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+.my-container-col .text-center {
+  margin-top: 1.0em;
+  font-weight: bold;
+}
+
 #col-colchones{
   border-radius: 50%;
   width: 250px;
@@ -110,6 +145,7 @@ nav {
 }
 
 .banner2 {
+  margin-top: 2.0em;
   display: flex; 
   align-items: center; 
   justify-content: center; 
@@ -117,6 +153,7 @@ nav {
 
 .text-banner2 p{
   text-align: center; 
+  color: #18193d;
   font-weight: bold;
   font-size: 60px;
 }
@@ -137,19 +174,62 @@ nav {
   cursor: pointer; /* para cambiar el cursor al pasar sobre el botón */
   background-color: #ffffff;
   font-size: 20px;
-  margin-top: 40px;
-  margin-left: 150px;
+  margin-top: 2.0em;
 }
 
 
 .image-banner2 {
-  width: 850px;
+  width: 990px;
   height: 600px;
-  margin-right: 15px;
-  margin-left: 50px;
-}
+  }
 
 .image-banner2 img{
+  width: 100%; 
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner3 {
+  display: flex; 
+  flex-direction: row-reverse;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.text-banner3 p{
+  text-align: center; 
+  color: #18193d;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.text-banner3 span{
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: 17px;
+  text-align: center;
+  display: block;
+  align-items: center;
+}
+
+.text-banner3 button{
+  color: #000000; /* para darle color al texto del botón */
+  border: solid 2px ; /* para quitar el borde al botón */
+  padding: 15px 70px; /* para darle espacio al texto del botón */
+  text-align: center; /* para centrar el texto del botón */
+  cursor: pointer; /* para cambiar el cursor al pasar sobre el botón */
+  background-color: #ffffff;
+  font-size: 20px;
+  margin-top: 2.0em;
+}
+
+
+.image-banner3 {
+  width: 1000px;
+  height: 600px;
+}
+
+.image-banner3 img{
   width: 100%; 
   height: 100%;
   object-fit: cover;
@@ -179,16 +259,27 @@ footer{
   height: 2px;
   width: 90%;
   margin: 10px;
+  margin-top: 1.5em;
 }
 .novedad{
-  padding: 10px;
-  border: 3px solid white;
-  color: #000000;
-  font-size: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000; /* para darle color al texto del botón */
+  border: solid 2px #ffffff; /* para quitar el borde al botón */
+  padding: 15px 70px; /* para darle espacio al texto del botón */
+  text-align: center; /* para centrar el texto del botón */
+  cursor: pointer; /* para cambiar el cursor al pasar sobre el botón */
+  font-size: 20px;
+  margin-top: 2.0em;
+  margin-bottom: 2.0em;
 }
 #copyR{
-  height: 50px;
+  height: 55px;
   font-size: 25px;
   text-align: center;
-  padding: 30px 0px;
+  padding: 10px 0px;
+}
+
+.footerColumna a {
+  cursor: pointer;
 }
