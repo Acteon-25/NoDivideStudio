@@ -4,32 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="css/tipsStyle.css">
     <link rel="icon" href="img/tips/PaginaLogo.jpg">
     <title>Colineal Perú - Venta de muebles y todo tipo de articulo para el hogar</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
 </head>
 <body>
-    <header>
-        <div id="publicidad"><p>¡Precios exclusivos por tienda online!</p></div>
-        <img src="img/Logo.png" class="imgmenu">
-        <nav>
-            <ul class="menu">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="productos.html">Productos</a>
-                    <ul class="submenu">
-                        <li><a href="productos.html#sala">Salas</a></li>
-                        <li><a href="productos.html#dormitorio">Dormitorio</a></li>
-                        <li><a href="productos.html#comedores">Comedores</a></li>
-                        <li><a href="productos.html#colchones">Colchones</a></li>
+    <header>  
+        <div class="jumbotron text-center my-jumbotron ">
+          <p class="h5">¡Precios exclusivos por tienda online!</p>
+        </div>
+    
+        <nav class="navbar navbar-expand-sm d-flex justify-content-between">
+    
+            <a class="navbar-brand justify-content-start" href="#"> 
+                <img src="./img/Logo.png" class="img-fluid" alt="Logo">
+            </a>
+            <ul class="navbar-nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href="./productos.html">Productos</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="productos.html#sala">Salas</a></li>
+                        <li><a class="dropdown-item" href="productos.html#dormitorio">Dormitorios</a></li>
+                        <li><a class="dropdown-item" href="productos.html#comedores">Comedores</a></li>
+                        <li><a class="dropdown-item" href="productos.html#colchones">Colchones</a></li>
                     </ul>
                 </li>
-                <li><a href="tips.html">Tips e Ideas</a></li>
-                <li><a href="#">Contáctanos</a></li>
-            </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="./tips.html">Tips e Ideas</a>
+                </li>   
+                <li class="nav-item">
+                    <a class="nav-link" href="./contactanos.html">Contactanos</a>
+                </li>
+            </ul> 
         </nav>
     </header>
     <main>
-        <div><img src="img/tips/bannerTips.png" id="bannerTips"></div>
+        <div>
+            <img src="img/tips/bannerTips.jpg" id="bannerTips">
+            <p id="parrafo-banner">No solo diseñamos muebles tambien historias</p>
+            <p id="parrafo-banner2">Con nuestros tips remodela tú hogar para vivir una experiencia unica en cada evento especial</p>
+        </div>
         <section>
             <table>
                 <td class="sectTd">
@@ -110,7 +129,7 @@
                 <p> <br> ¿Quieres enterarte antes que nadie de nuestras ofertas, promociones y novedades?
                 </p>
                 <br>
-                <a class="novedad">Recibir Novedades</a>
+                <a class="novedad" href="contactanos.html">Recibir Novedades</a>
             </td>
             <td class="footerColumna">
                 <h4>Horarios de Atención</h4>
@@ -129,5 +148,6 @@
         <hr class="linea">    
         <p id="copyR"><b>No Divide Studio</b> - Copyright 2022 Todos los derechos reservados.</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
