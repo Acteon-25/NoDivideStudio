@@ -2,6 +2,74 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+
+.anuncio {
+  background-color: #4e4e4e;
+  height: 45px;
+}
+
+
+.anuncio p {
+  color: #ffffff;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.navbar{
+  padding: 0.5rem;
+  background-color: #f3f5f6;
+}
+
+.navbar-collapse{
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-nav {
+  font-size: 20px;
+}
+.navbar-nav li a {
+  margin-left: 100px;
+}
+
+.footer{
+  background-color: #4F4E4E;
+}
+
+.footer-pie{
+  color: #ffffff;
+}
+
+.footer-text-1 {
+  font-size: 18px;
+  
+}
+
+.footer-text-2 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.footer-text-3 {
+  font-size: 18px;
+}
+
+.footer-text-4{
+  font-weight: bold;
+}
+
+.footer-text-5{
+  font-size: 50px;
+  margin: 5px;
+}
+
+.footer-text-6{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .navbar-nav .nav-link {
   font-size: 18px;
   margin: 0 40px;
@@ -111,50 +179,5 @@ nav {
 
 .container-fluid {
   background-color: #c4c4c4;
-  margin-top: 5.0em;
-}
-
-.imgfooter{
-  height: 80px;
-  margin-right: 60%;
-}
-.footerColumna{
-  width: 30%;
-  height: 240px;
-  font-size: 22px;
-  text-align: center;
-  color:#424242;
-}
-.linea{
-  height: 2px;
-  width: 90%;
-  margin: 10px;
-  margin-top: 1.5em;
-}
-.novedad{
-  text-decoration: none;
-  font-weight: bold;
-  color: #000000; /* para darle color al texto del botón */
-  border: solid 2px #ffffff; /* para quitar el borde al botón */
-  padding: 15px 70px; /* para darle espacio al texto del botón */
-  text-align: center; /* para centrar el texto del botón */
-  cursor: pointer; /* para cambiar el cursor al pasar sobre el botón */
-  font-size: 20px;
-  margin-top: 2.0em;
-  margin-bottom: 2.0em;
-}
-#copyR{
-  height: 55px;
-  font-size: 25px;
-  text-align: center;
-  padding: 10px 0px;
-}
-
-.footerColumna a {
-  cursor: pointer;
-}
-
-.footer-asd {
-  background-color: #c4c4c4;
-  margin-top: 5.0em
+  margin-top: 5.0em;  
 }

@@ -3,65 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/tipsStyle.css">
     <link rel="icon" href="img/tips/PaginaLogo.jpg">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <title>Colineal Perú - Venta de muebles y todo tipo de articulo para el hogar</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
 </head>
 <body>
     <header>  
-        <div class="jumbotron text-center my-jumbotron ">
-          <p class="h5">¡Precios exclusivos por tienda online!</p>
-        </div>
-        
-        <nav class="navbar navbar-expand-sm d-flex justify-content-between">
-    
-            <a class="navbar-brand justify-content-start" href="#"> 
-                <img src="./img/Logo.png" class="img-fluid" alt="Logo">
+      <div class="container-fluid anuncio text-center pt-2">
+        <p>¡Precios exclusivos por tienda online!</p>
+      </div>
+      
+      <nav class="navbar navbar-expand-md navbar-light ">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="./index.html">
+              <img src="./img/Logo.png" width="200px" alt="Logo">
             </a>
-            <ul class="navbar-nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link" href="./index.html">Inicio</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href="./productos.html">Productos</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="productos.html#sala">Salas</a></li>
-                        <li><a class="dropdown-item" href="productos.html#dormitorio">Dormitorios</a></li>
-                        <li><a class="dropdown-item" href="productos.html#comedores">Comedores</a></li>
-                        <li><a class="dropdown-item" href="productos.html#colchones">Colchones</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./tips.html">Tips e Ideas</a>
-                </li>   
-                <li class="nav-item">
-                    <a class="nav-link" href="./contactanos.html">Contactanos</a>
-                </li>
-            </ul> 
-        </nav>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./tips.html">Tips e Ideas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contactanos.html">Contáctanos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
         <div>
             <img src="img/tips/bannerTips.jpg" id="bannerTips">
             <p id="parrafo-banner">No solo diseñamos muebles tambien historias</p>
-            <p id="parrafo-banner2">Con nuestros tips remodela tú hogar para vivir una experiencia unica en cada evento especial</p>
         </div>
-        <section id="sencillas">
-            <table>
+        <section id="sect1">
+            <table class="pintarSect">
                 <td class="sectTd">
-                    <a href="#agrandar" class="abrir">
+                    <a href="#renovar" class="abrir">
+                        <br>
+                        <center><h2><b>5 formas sencillas de renovar tú casa</b> </h2>
                         <img src="img/tips/DecoSencillo.png" class="imgSecTip">
-                        <h2>5 formas sencillas de renovar tú casa</h2>
+                        </center>
                     </a>
-                    <div id="agrandar">
+                    <div id="renovar">
                         <div class="contenido">
-                            <a href="#sencillas">Cerrar</a>
-                            <img src="img/tips/DecoSencillo.png" width="90%">
+                            <h2 class="titulo"><b>5 formas sencillas de renovar tú casa</b></h2>
+                            <img src="img/tips/DecoSencillo.png" width="70%">
+                            <ul>
+                              <li class="miniTitulo">Prioriza las habitaciones más usadas</li>
+                              <p class="miniTexto">Es necesario dividir las tareas de renovación de tu casa en partes, concéntrate 
+                              en las habitaciones o zonas que más utilizas y procede a renovarlas una por una.</p> 
+                              <li class="miniTitulo">Pinta las paredes interiores</li>
+                              <p class="miniTexto">Si el papel tapiz no es lo tuyo, tal vez prefieras pintar las paredes interiores 
+                              para darle un toque a cada habitación. También puedes pintar las cuatro paredes o convertir una de 
+                              ellas en una pared característica eligiendo un color complementario.</p>
+                              <li class="miniTitulo">Mejora el aspecto de los suelos</li>
+                              <p class="miniTexto">Los suelos tienden a dominar el aspecto de cualquier habitación, En menos de un 
+                              fin de semana puedes renovar fácilmente tus suelos con un par de capas de pintura resistente para suelos.</p>
+                              <li class="miniTitulo">Cambia las cortinas</li>
+                              <p class="miniTexto">Dar un nuevo aspecto a las ventanas es una buena manera de mejorar una habitación 
+                              sin mucho esfuerzo. Existe un gran número de opciones de persianas y cortinas.</p>
+                              <li class="miniTitulo">Añade accesorios</li>
+                              <p class="miniTexto">Déjanos decirte que añadir o cambiar obras de arte de una habitación es otra forma 
+                              fácil y asequible de actualizar el aspecto del hogar, por otro lado, remodelar una casa pequeña para que 
+                              parezca más grande, una manera de hacer es añadir diferentes tipos de espejos.</p>
+                            </ul>
+                            <a href="#sect1">Cerrar</a>
                         </div>
-                    </div>
+                    </div>  
                 </td>
                 <td class="sectTd">
                     <ul>
@@ -74,11 +96,38 @@
                 </td>
             </table>
         </section>
-        <section>
-            <table>
+        <section id="sect2">
+            <table class="pintarSect">
                 <td class="sectTd">
-                    <img src="img/tips/DecoHogar.png" class="imgSecTip">
-                    <h2>4 ideas en tendencia para decorar con un sofá</h2>
+                    <a href="#deco" class="abrir">
+                        <center><h2><b>4 ideas en tendencia para decorar con un sofá</b></h2>
+                        <img src="img/tips/DecoHogar.png" class="imgSecTip">
+                        </center>
+                    </a>
+                    <div id="deco">
+                        <div class="contenido">
+                            <h2 class="titulo"><b>4 ideas en tendencia para decorar con un sofá</b></h2>
+                            <img src="img/tips/DecoHogar.png" width="90%">
+                            <ul>
+                              <li class="miniTitulo">Consigue la escala correcta con la regla de los dos tercios</li>
+                              <p class="miniTexto">Un sofá que ocupe toda la longitud de la pared opuesta podría resultar excesivo en 
+                              la decoración para salas pequeñas. Pero, tampoco quieres un sofá muy pequeño. Entonces, una forma de conseguir 
+                              las proporciones correctas es optar por uno que ocupe aproximadamente dos tercios de la longitud de la pared.</p>
+                              <li class="miniTitulo">Piensa en la funcionalidad y el estilo</li>
+                              <p class="miniTexto">Aunque las dimensiones del espacio son un factor esencial a la hora de elegir el sofá 
+                              adecuado, el uso que le des a la habitación también influirá en la elección del tamaño del sofá más apropiado 
+                              para tu casa.</p>
+                              <li class="miniTitulo">Invierte en una sala modular en un espacio abierto</li>
+                              <p class="miniTexto">¿Sabías que un sofá modular suele funcionar bien como separador de ambientes? Un sofá grande 
+                              en forma de L es una gran elección para un espacio abierto, ya que ayuda a separar la zona de estar del comedor 
+                              o la cocina.</p>
+                              <li class="miniTitulo">Apuesta por un color llamativo</li>
+                              <p class="miniTexto">La combinación de colores que elijas para el sofá influirá en el aspecto dominante de la habitación, 
+                              así que considera el tono adecuado y piensa en él como parte de la combinación general de tonos de tu sala de estar.</p>
+                            </ul>
+                            <a href="#sect2">Cerrar</a>
+                        </div>
+                    </div>                    
                 </td>
                 <td class="sectTd">
                     <ul>
@@ -90,11 +139,40 @@
                 </td>
             </table>
         </section>
-        <section>
-            <table>
+        <section id="sect3">
+            <table class="pintarSect">
                 <td class="sectTd">
-                    <img src="img/tips/DecoHijos.png" class="imgSecTip">
-                    <h2>5 formas de decorar tú sala si tienes niños y mascotas</h2>
+                    <a href="#hijos" class="abrir">
+                        <center><h2><b>5 formas de decorar tú sala si tienes niños y mascotas</b> </h2>
+                        <img src="img/tips/DecoHijos.png" class="imgSecTip">
+                        </center>
+                    </a>
+                    <div id="hijos">
+                        <div class="contenido">
+                            <h2 class="titulo"><b>5 formas de decorar tú sala si tienes niños y mascotas</b></h2>
+                            <img src="img/tips/DecoHijos.png" width="90%">
+                            <ul>
+                              <li class="miniTitulo">Elige sofás con telas adecuadas</li>
+                              <p class="miniTexto">El artículo imprescindible número uno para decorar una sala de estar, pensando en los niños y las mascotas, 
+                              es un sofá con fundas adecuadas. Sabemos que algunas telas son más indulgentes que otras cuando se trata de manchas, pero 
+                              ¿también piensas en el color y el patrón de las telas que estás eligiendo?</p>
+                              <li class="miniTitulo">Consigue alfombras lavables</li>
+                              <p class="miniTexto">¿Sabías que las mascotas tienen esa necesidad innata de ensuciar la alfombra más cercana, especialmente 
+                              cuando está bien limpia? ¡Pues, sí y resulta que los niños son iguales! Por ello, las clases de alfombras lavables son tan 
+                              buenas como dicen y más. ¡La inversión merece la pena!</p>
+                              <li class="miniTitulo">Busca piezas multifuncionales</li>
+                              <p class="miniTexto">Si te gusta usar muebles en tu casa que se vean bien, entonces debes conseguir unos que tengan un propósito 
+                              y que te ayuden a mantener los accesorios de los niños y de las mascotas fuera del camino.</p>
+                              <li class="miniTitulo">Incorpora decoraciones estratégicamente</li>
+                              <p class="miniTexto">La sala de estar debe ser un lugar en el que todos los miembros de la familia se sientan bienvenidos; por ello, 
+                              te gustará la idea de incorporar una pared de galería con obras de arte tanto de adultos como de niños.</p>
+                              <li class="miniTitulo">Usa fundas en los cojines</li>
+                              <p class="miniTexto">Si no lo sabías, poder lavar los textiles de tu sala es muy importante, más aún con una casa llena de mascotas. 
+                              Por lo general, las almohadas se desgastan mucho y es posible que tengas que reemplazarlas rápidamente en tu hogar.</p>
+                            </ul>
+                            <a href="#sect3">Cerrar</a>
+                        </div>
+                    </div>
                 </td>
                 <td class="sectTd">
                     <ul>
@@ -108,54 +186,38 @@
             </table>
         </section>
         <section class="botones">
-            <a class="boton">1</a>
+            <a class="botonActive">1</a>
             <a class="boton">2</a>
             <a class="boton">3</a>
             <a class="boton">...</a>
             <a class="boton">6</a>
-            <a class="boton">Siguiente</a>
-        </section>
-        <section class="informar">
-            <table>
-                <td class="sectTd">
-                    <h2>Boletín informativo</h2>
-                    <p class="text">Suscríbete para recibir información sobre promociones
-                     y descuentos exclusivos</p>
-                 </td>
-                <td class="sectTd">
-                    <h3>Email</h3>
-                    <p id="box">ejemplo@gmail.com</p>
-                    <a class="suscribir">Suscribir</a>
-                </td>
-            </table>
         </section>
     </main>
-    <footer>
-        <table>
-            <td class="footerColumna">
-                <img src="img/Logo.png" class="imgfooter">
-                <p> <br> ¿Quieres enterarte antes que nadie de nuestras ofertas, promociones y novedades?
-                </p>
-                <br>
-                <a class="novedad" href="contactanos.html">Recibir Novedades</a>
-            </td>
-            <td class="footerColumna">
-                <h4>Horarios de Atención</h4>
-                <br>
-                <p>L-V: DE 10:00 A 17:00h <br> S: DE 10:00 A 13:00h</p>        
-            </td>
-            <td class="footerColumna">
-                <h4>Redes Sociales</h4>
-                <br>
-                <img src="img/Iconos/facebook.png">
-                <img src="img/Iconos/whatsapp.png">
-                <img src="img/Iconos/instagram.png">
-                <img src="img/Iconos/youtube.png">
-            </td>
-        </table>
-        <hr class="linea">    
-        <p id="copyR"><b>No Divide Studio</b> - Copyright 2022 Todos los derechos reservados.</p>
+    <footer class="py-3 footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 text-center">
+            <img src="./img/logo.png" alt="Logo" width="200px">
+            <p class="text-light mt-3 footer-text-1">¿Quieres enterarte antes que nadie de nuestras ofertas, promociones y novedades?</p>
+            <button class="btn btn-light mt-3 ">Recibir Novedades</button>
+          </div>
+          <div class="col-md-6 text-center">
+            <h5 class="text-light footer-text-2">Horarios de Atencion</h5><br>
+            <p class="text-light footer-text-3">L-V: DE 10:00 A 17:00</p>
+            <p class="text-light footer-text-3">S: DE 10:00 a 13:00h</p>
+          </div>
+          <div class="col-md-3 text-center redes">
+            <h5 class="text-light footer-text-4">Redes Sociales</h5>
+            <i class="footer-text-5 fab fa-facebook-square text-light mr-3"></i>
+            <i class="footer-text-5 fab fa-whatsapp-square text-light mr-3"></i>
+            <i class="footer-text-5 fab fa-instagram text-light mr-3"></i>
+            <i class="footer-text-5 fab fa-youtube text-light"></i>
+          </div>
+        </div>
+        <div class="text-center mt-5 footer-pie footer-text-6">No Divide Studio - Copyright © 2022 Todos los derechos reservados.</div>
+    </div>
+      </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -3,45 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="x-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/productos.css">
     <link rel="icon" href="img/favicon01.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <title>Colineal Perú - Venta de muebles y todo tipo de articulo para el hogar</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
 </head>
 <body>
     <header>  
-        <div class="jumbotron text-center my-jumbotron ">
-          <p class="h5">¡Precios exclusivos por tienda online!</p>
-        </div>
-    
-        <nav class="navbar navbar-expand-sm d-flex justify-content-between">
-    
-            <a class="navbar-brand justify-content-start" href="#"> 
-                <img src="./img/Logo.png" class="img-fluid" alt="Logo">
+      <div class="container-fluid anuncio text-center pt-2">
+        <p>¡Precios exclusivos por tienda online!</p>
+      </div>
+      
+      <nav class="navbar navbar-expand-md navbar-light ">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="./index.html">
+              <img src="./img/Logo.png" width="200px" alt="Logo">
             </a>
-            <ul class="navbar-nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link" href="./index.html">Inicio</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href="./productos.html">Productos</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="productos.html#sala">Salas</a></li>
-                        <li><a class="dropdown-item" href="productos.html#dormitorio">Dormitorios</a></li>
-                        <li><a class="dropdown-item" href="productos.html#comedores">Comedores</a></li>
-                        <li><a class="dropdown-item" href="productos.html#colchones">Colchones</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./tips.html">Tips e Ideas</a>
-                </li>   
-                <li class="nav-item">
-                    <a class="nav-link" href="./contactanos.html">Contactanos</a>
-                </li>
-            </ul> 
-        </nav>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./tips.html">Tips e Ideas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contactanos.html">Contáctanos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
         <div class="slider">
@@ -55,6 +56,10 @@
             </ul>
         </div>
         <div>
+            <li><img class="principal" src="img/muebles1.png"></li>
+            <p id="parrafo">Decora tu casa con los muebles que traemos para ti</p>
+        </div>
+        <div>
             <p class="barra" id="sala">Salas</p>
         </div>
         <div class="container">
@@ -63,24 +68,84 @@
                 <h4>Sala Italiana</h4>
                 <p>Precios:S/.2800</p>
                 <p>Es un mueble de 2 piezas de color veish</p>
-                <a href="#">Leer más</a>
+                <a href="#salaItaliana">Leer más</a>
             </div>
             <div class="card">
                 <img src="img/img2-removebg-preview.png">
                 <h4>Sala Calabria</h4>
                 <p>Precios:S/.4899</p>
                 <p>¡Fresco y de moda! la Sala Calabria Modular 2P</p>
-                <a href="#">Leer más</a>
+                <a href="#salaCalabria">Leer más</a>
             </div>
             <div class="card">
                 <img src="img/img9.jpg">
                 <h4>Sala Ivonne</h4>
                 <p>Precios:S/.5948</p>
                 <p>Una sala perfecta para cualquier estilo de decoración</p>
-                <a href="#">Leer más</a>
+                <a href="#salaIvonne">Leer más</a>
             </div>
-
         </div>
+
+        <div id="salaItaliana">
+            <div>
+                <img src="img/img1.jpg" class="imgGran">
+                <ul class="texto">
+                    <p> Sí buscas algo diferente esta sala es perfecta para ti, tiene  gran estilo.  Sofás de respaldo bajo y patas de metal le darán un toque único a tu hogar. El capitoneado en cuadros brinda modernidad y elegancia.</p>
+                    <li>Dimensiones:  Sofá triple: 200 cm ancho x 86 cm profundidad</li>
+                    <li>Sofá doble: 159,5 cm ancho x 86 cm profundidad</li>
+                    <li>Sillón: 105,5 cm ancho x 86 cm profundidad</li>
+                    <li>Estilo: Moderno</li>
+                    <li>Material: Madera cerezo</li>
+                    <li>Tapiz: 100% Poliéster</li>
+                    <li>Microfibra de pelo alto texturada</li>
+                    <li>Acabados:  Patas metálicas cromadas</li>
+                    <li>Capitoleado en los asientos y espaldares</li>
+                    <li>Incluye: Sofá triple</li>
+                    <li>Sofá doble</li>
+                    <li>Sillón</li>
+                </ul>
+                <a href="#sala">Cerrar</a>
+            </div>
+        </div>
+
+        <div id="salaCalabria">
+            <div>
+                <img src="img/img2-removebg-preview.png" class="imgGran">
+                <ul class="texto">
+                    <p>¡Fresco y de moda! Las líneas limpias y el atractivo nórdico en una silueta compacta hacen de la Sala Calabria Modular 2P 
+                    la elección perfecta para espacios pequeños. Una sala modular diseñada con delicados detalles de madera y tapizada en microfibra convertirá a tu estancia en un ambiente acogedor y versátil.</p>
+                    <li>Dimensiones: 251 cm largo x 144 cm profundidad x 92 cm alto.</li>
+                    <li>Sofá Doble Lateral Derecho: 161 cm largo x 90 cm profundidad x 92 cm alto.</li>
+                    <li>Sofá Chiase Longue Izquierdo: 90 cm largo x 144 cm profundidad x 92 cm alto.</li>
+                    <li>Estilo: Moderno </li>
+                    <li>Material: Madera / Tapiz / Metal.</li>
+                    <li>Acabados: Patas Metálicas color negro. </li>
+                    <li>Incluye: Sofá Doble Lateral Derecho + Sofá Chiase Longue Izquierdo.</li>
+                </ul>
+                <a href="#sala">Cerrar</a>
+            </div>
+        </div>
+
+        <div id="salaIvonne">
+            <div>
+                <img src="img/img9.jpg" class="imgGran">
+                <ul class="texto">
+                    <p>Una sala perfecta para cualquier estilo de decoración, sofá triple, sofá doble y sillón
+                     para ambientes amplios, brazos acolchados para mayor confort.</p>
+                    <li>Dimensiones: Sofá triple: 214,9 cm ancho x 93,2 cm profundidad.</li>
+                    <li>Sofá doble: 158,9 cm ancho x 93,2 cm profundidad</li>
+                    <li>Sillón: 96.9 cm ancho x 93,2 cm profundidad</li>
+                    <li>Estilo: Clásica</li>
+                    <li>Material: Madera cerezo</li>
+                    <li>Tapiz: 100% Poliéster</li>
+                    <li>Microfibra de pelo alto texturada</li>
+                    <li>Acabados: Patas de madera para mayor resistencia y estructura del mueble</li>
+                    <li>Incluye:Sillón, Sofá doble, Sofá triple.</li>
+                </ul>
+                <a href="#sala">Cerrar</a>
+            </div>
+        </div>
+
         <div>
             <p class="barra1" id="dormitorio">Dormitorios</p>
         </div>
@@ -90,23 +155,69 @@
                 <h4>Velador Capri</h4>
                 <p>Precios:S/.190</p>
                 <p>Dos cajones amplios para que pueda guardar lo que desees</p>
-                <a href="#">Leer más</a>
+                <a href="#velador">Leer más</a>
             </div>
             <div class="card1">
                 <img src="img/img4.jpg">
                 <h4>Comoda French</h4>
                 <p>Precios:S/.120</p>
                 <p>las mesas de noche son más que un lugar para colocar tus ultimas lecturas</p>
-                <a href="#">Leer más</a>
+                <a href="#comoda">Leer más</a>
             </div>
             <div class="card1">
                 <img src="img/img10-removebg-preview.png">
                 <h4>Portavela</h4>
                 <p>Precios:S/.77</p>
                 <p>Añade un toque de clase a tu hogar con este elegante Porta Vela</p>
-                <a href="#">Leer más</a>
+                <a href="#portavela">Leer más</a>
             </div>
         </div>
+
+        <div id="velador">
+            <div>
+                <img src="img/img3-removebg-preview.png" class="imgGran">
+                <ul class="texto">
+                    <p> Complementa tu dormitorio con un práctico velador, su diseño se acopla perfectamente a todo estilo.
+                         Dos cajones amplios para que puedas guardar lo que desees. Sus hermosos detalles hechos a mano le da un toque elegante.</p>
+                    <li>Dimensiones: 43 cm profundidad x 71 cm ancho x 68 cm alto</li>
+                    <li>Estilo: Clásico Americano </li>
+                    <li>Material: Madera cerezo</li>
+                    <li>Acabados: Un acabado sin asperezas, suave al tacto, con  un nivel alto de resistencia al impacto, permanencia  del color a través del tiempo.
+                        Colores formulados y exclusivos. Mayor resistencia en rayados</li>
+                </ul>
+                <a href="#dormitorio">Cerrar</a>
+            </div>
+        </div>
+
+        <div id="comoda">
+            <div>
+                <img src="img/img4.jpg" class="imgGran">
+                <ul class="texto">
+                    <p>Tu mejor amigo junto a la cama, las mesas de noche son más que un lugar práctico para 
+                        colocar tus últimas lecturas o colocar una lámpara: ¡también son un toque importante para el estilo de tu dormitorio!</p>
+                    <li>Estilo: Moderno</li>
+                    <li>Materiales: Madera Cultivada</li>
+                    <li>Color: Taupe</li>
+                </ul>
+                <a href="#dormitorio">Cerrar</a>
+            </div>
+        </div>
+
+        <div id="portavela">
+            <div>
+                <img src="img/img10-removebg-preview.png" class="imgGran">
+                <ul class="texto">
+                    <p>Añade un toque de clase a cualquier espacio de tu hogar con este elegante Porta Vela que es el complemento
+                        perfecto para la decoración de salas, dormitorios o comedores.</p>
+                    <li>Características del producto:</li>
+                    <li>Dimensiones: 10.8 cm largo x 10.4 cm ancho x 25.5 cm alto.</li>
+                    <li>Color: Negro.</li>
+                    <li>Estilo: Contemporáneo.</li>
+                </ul>
+                <a href="#dormitorio">Cerrar</a>
+            </div>
+        </div>
+
         <div>
             <p class="barra2" id="comedores">Comedores</p>
         </div>
@@ -116,23 +227,66 @@
                 <h4>Mesa Comedor Bacoli</h4>
                 <p>Precios:S/.900</p>
                 <p>Tablero de de vidrio con una base de forma de trípode llena de diseño</p>
-                <a href="#">Leer más</a>
+                <a href="#mesa">Leer más</a>
             </div>
             <div class="card2">
                 <img src="img/img6-removebg-preview.png">
                 <h4>Silla Arcadia</h4>
                 <p>Precios:S/.1000</p>
                 <p>Para sentirse lo mas cómodo posible dentro de su hogar</p>
-                <a href="#">Leer más</a>
+                <a href="#silla">Leer más</a>
             </div>
             <div class="card2">
                 <img src="img/img11-remove.png">
                 <h4>Mesa Comedor Calabria Rect</h4>
                 <p>Precios:S/.1225</p>
                 <p>Una mesa ideal para 6 personas, un tablero de diseño que combina</p>
-                <a href="#">Leer más</a>
+                <a href="#mesaComedor">Leer más</a>
             </div>
         </div>
+
+        <div id="mesa">
+            <div>
+                <img src="img/img5-removebg-preview.png" class="imgGran">
+                <ul class="texto">
+                    <p>¡Apariencia acogedora en tu comedor! La mesa Bácoli combina su tablero de vidrio  con una base en forma de trípode llena de diseño,
+                         que colma de sofisticación a tu entorno. Estas bases proporcionan a la mesa un aspecto original y muy actual, junto a su sobria composición 
+                         de colores es apto para todo tipo de comedores.</p>
+                    <li>Dimensiones: 120 cm diámetro x 78 cm alto.</li>
+                    <li>Estilo: Contemporáneo.</li>
+                    <li>Material: Madera cultivada. Vidrio Templado</li>
+                    <li>Color Base:  Negro</li>
+                    <li>Acabados: Utilizamos lacas italianas poliuretánicas, resistentes a rayaduras y lo más importante no afectan a la salud.</li>
+                </ul>
+                <a href="#comedores">Cerrar</a>
+            </div>
+        </div>
+
+        <div id="silla">
+            <div>
+                <img src="img/img6-removebg-preview.png" class="imgGran">
+                <ul class="texto">
+                    <p>Comodo para poder estar relajado tiene diferentes colores para decorar tu hogar </p>
+                    <li>Dimensiones: 51 x 60 x 87 cm</li>
+                </ul>
+                <a href="#comedores">Cerrar</a>
+            </div>
+        </div>
+
+        <div id="mesaComedor">
+            <div>
+                <img src="img/img11-remove.png" class="imgGran">
+                <ul class="texto">
+                    <p>Una mesa ideal para 6 personas, un tablero con muchos detalles que se combina con una base llena de diseño.</p>
+                    <li>Dimensiones:  184 cm ancho x 92.7 cm profundidad x 75,6 cm alto.</li>
+                    <li>Estilo:  Contemporáneo.</li>
+                    <li>Material:  Madera cerezo - Tablero Melaminico.</li>
+                    <li>Acabados: Lacas italianas poliuretánicas, resistentes a rayaduras y lo más importante no afectan a la salud.</li>
+                </ul>
+                <a href="#comedores">Cerrar</a>
+            </div>
+        </div>
+
         <div>
             <p class="barra3" id="colchones">Colchones</p>
         </div>
@@ -142,50 +296,95 @@
                 <h4>Cuna Anghel</h4>
                 <p>Precios:S/.1499</p>
                 <p>Descanza para ser feliz</p>
-                <a href="#">Leer más</a>
+                <a href="#cuna">Leer más</a>
             </div>
             <div class="card3">
                 <img src="img/img8-removebg-preview.png">
-                <p>Precios:S/.2799</p>
                 <h4>Colchón Relaxer</h4>
+                <p>Precios:S/.2799</p>
                 <p>Tiempo para el relax</p>
-                <a href="#">Leer más</a>
+                <a href="#colchónRelaxer">Leer más</a>
             </div>
             <div class="card3">
                 <img src="img/img12-removebg-preview.png">
-                <p>Precios:S/.2379</p>
                 <h4>Colchón Wonderful</h4>
+                <p>Precios:S/.2379</p>
                 <p>Un exterior saludable comienza con un buen colchón</p>
-                <a href="#">Leer más</a>
+                <a href="#colchón">Leer más</a>
             </div>
         </div>
+
+        <div id="cuna">
+            <div>
+                <img src="img/img7.jpg" class="imgGran">
+                <ul class="texto">
+                    <p>Es tan relajante descanzar en una buena cama y despertar con mas energia  </p>
+                    <li>Dimensiones: (102 x 148 x 10)</li>
+                </ul>
+                <a href="#colchones ">Cerrar</a>
+            </div>
+        </div>
+
+        <div id="colchónRelaxer">
+            <div>
+                <img src="img/img8-removebg-preview.png" class="imgGran">
+                <ul class="texto">
+                    <p>Un exterior saludable comienza con un buen colchón...!</p>
+                    <li>Dimensiones:</li>
+                    <li>Full: 135 x 190 cm</li>
+                    <li>Queen: 160 x 200 cm</li>
+                </ul>
+                <a href="#colchones ">Cerrar</a>
+            </div>
+        </div>
+
+        <div id="colchón">
+            <div>
+                <img src="img/img12-removebg-preview.png" class="imgGran">
+                <ul class="texto">
+                    <p>Tejido elástico de punto suave.
+                        Fieltro gris.
+                        Tela no tejida para ayudar a mantener y proteger las capas.
+                        Tejido de barrera de rayón, destinado a proteger su colchón y reducir el riesgo de inflamabilidad.
+                        Espuma enrevesada para proporcionar un soporte excepcional.
+                        Espuma de memoria para reducir la transferencia de movimiento.
+                        Espuma de bobina de bolsillo envuelta alrededor del cebador del colchón para aumentar la estabilidad.
+                        Espuma premium para mayor comodidad y sensación.</p>
+                    <li>Dimensiones:</li>
+                    <li>Full: 135 cm x 190 cm.</li>
+                    <li>Queen: 160 cm x 200 cm.</li>
+                    <li>King: 200 cm x 200 cm</li>
+                </ul>
+                <a href="#colchones ">Cerrar</a>
+            </div>
+        </div>
+
     </main>
-    <footer>
-        <table>
-            <td class="footerColumna">
-                <img src="img/Logo.png" class="imgfooter">
-                <p> <br> ¿Quieres enterarte antes que nadie de nuestras ofertas, promociones y novedades?
-                </p>
-                <br>
-                <a class="novedad" href="contactanos.html">Recibir Novedades</a>
-            </td>
-            <td class="footerColumna">
-                <h4>Horarios de Atención</h4>
-                <br>
-                <p>L-V: DE 10:00 A 17:00h <br> S: DE 10:00 A 13:00h</p>        
-            </td>
-            <td class="footerColumna">
-                <h4>Redes Sociales</h4>
-                <br>
-                <img src="img/Iconos/facebook.png">
-                <img src="img/Iconos/whatsapp.png">
-                <img src="img/Iconos/instagram.png">
-                <img src="img/Iconos/youtube.png">
-            </td>
-        </table>
-        <hr class="linea">    
-        <p id="copyR"><b>No Divide Studio</b> - Copyright 2022 Todos los derechos reservados.</p>
+    <footer class="py-3 footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 text-center">
+            <img src="./img/logo.png" alt="Logo" width="200px">
+            <p class="text-light mt-3 footer-text-1">¿Quieres enterarte antes que nadie de nuestras ofertas, promociones y novedades?</p>
+            <button class="btn btn-light mt-3 ">Recibir Novedades</button>
+          </div>
+          <div class="col-md-6 text-center">
+            <h5 class="text-light footer-text-2">Horarios de Atencion</h5><br>
+            <p class="text-light footer-text-3">L-V: DE 10:00 A 17:00</p>
+            <p class="text-light footer-text-3">S: DE 10:00 a 13:00h</p>
+          </div>
+          <div class="col-md-3 text-center redes">
+            <h5 class="text-light footer-text-4">Redes Sociales</h5>
+            <i class="footer-text-5 fab fa-facebook-square text-light mr-3"></i>
+            <i class="footer-text-5 fab fa-whatsapp-square text-light mr-3"></i>
+            <i class="footer-text-5 fab fa-instagram text-light mr-3"></i>
+            <i class="footer-text-5 fab fa-youtube text-light"></i>
+          </div>
+        </div>
+        <div class="text-center mt-5 footer-pie footer-text-6">No Divide Studio - Copyright © 2022 Todos los derechos reservados.</div>
+    </div>
+      </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

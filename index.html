@@ -4,54 +4,54 @@
   <head>
     <meta charset="UTF-8">
     <title>Colinial Perú Venta de muebles y todo tipo de articúlos para el hogar</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./css/index.css">
     <link rel="icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
   </head>
 
 <body>
-  <header>  
-    <div class="jumbotron text-center my-jumbotron ">
-      <p class="h5">¡Precios exclusivos por tienda online!</p>
+  <div class="container-fluid anuncio text-center pt-2">
+    <p>¡Precios exclusivos por tienda online!</p>
+  </div>
+  
+  <nav class="navbar navbar-expand-md navbar-light ">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="./index.html">
+          <img src="./img/Logo.png" width="200px" alt="Logo">
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./tips.html">Tips e Ideas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contactanos.html">Contáctanos</a>
+          </li>
+        </ul>
+      </div>
     </div>
-
-    <nav class="navbar navbar-expand-sm d-flex justify-content-between">
-
-      <a class="navbar-brand justify-content-start" href="#"> 
-        <img src="./img/Logo.png" class="img-fluid" alt="Logo">
-      </a>
-      <ul class="navbar-nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link" href="./index.html">Inicio</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href="./productos.html">Productos</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="productos.html#sala">Salas</a></li>
-            <li><a class="dropdown-item" href="productos.html#dormitorio">Dormitorios</a></li>
-            <li><a class="dropdown-item" href="productos.html#comedores">Comedores</a></li>
-            <li><a class="dropdown-item" href="productos.html#colchones">Colchones</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./tips.html">Tips e Ideas</a>
-        </li>   
-        <li class="nav-item">
-          <a class="nav-link" href="./contactanos.html">Contactanos</a>
-        </li>
-      </ul> 
-    </nav>
-  </header>
+  </nav>
 
   <main>
     <div class="container-fluid my-container position-relative">
       <div class="banner">
-        <img src="./img/banner.jpeg" class="bannerImg">
-          <div class="d-flex align-items-center justify-content-center flex-column position-absolute">
+        <img src="./img/banner.jpeg">
+          <div class="d-flex align-items-center justify-content-center flex-column position-absolute"">
             <p class="h1 text-center text-justify">100% Madera sostenible y local</p>
-            <p class="texto text-center text-justify">Nos importan los bosques de hoy, y sobre todo, los de mañana. Por eso, todos nuestros muebles están fabricados con madera ecológica. Es decir, cuando se tala un árbol, se planta otro</p>
-          </div>
+            <p class="h5 text-center text-justify">Nos importan los bosques de hoy, y sobre todo, los de mañana. Por eso, todos nuestros muebles están fabricados con madera ecológica. Es decir, cuando se tala un árbol, se planta otro</p>
+      </div>
       </div>
     </div>
   
@@ -60,28 +60,28 @@
     <div class="row">
 
     <div class="col-12 col-sm-6 col-md-3">
-      <a href="productos.html#colchones">
+      <a href="./productos.html#colchones">
         <img src="./img/colchones.jpg" class="rounded-circle" alt="Colchones">
         <p class="text-center">Colchones</p>
       </a>
     </div>
 
     <div class="col-12 col-sm-6 col-md-3">
-      <a href="productos.html#dormitorio">
+      <a href="./productos.html#dormitorio">
         <img src="./img/dormitorios.jpeg" class="rounded-circle " alt="Dormitorios">
         <p class="text-center">Dormitorios</p>
       </a>
     </div>
 
     <div class="col-12 col-sm-6 col-md-3">
-      <a href="productos.html#sala">
+      <a href="./productos.html#sala">
         <img src="./img/salas.jpg" class="rounded-circle" alt="Salas">
         <p class="text-center">Salas</p>
       </a>
     </div>
 
     <div class="col-12 col-sm-6 col-md-3">
-      <a href="productos.html#comedores">
+      <a href="./productos.html#comedores">
         <img src="./img/comedores.jpeg" class="rounded-circle" alt="Comedores">
         <p class="text-center">Comedores</p>
       </a>
@@ -93,8 +93,10 @@
     <div class="banner2 text-center">
       <div class="text-banner2">
           <p>¿Hora de renovar tu dormitorio?</p>
-          <span>Descubre nuestras camas y enterate de sus funcionalidades y precios sorprendentes.</span>
-          <a href="productos.html"><button>Ver Coleccion</button></a>  
+          <span>Descubre nuestras camas y entérate  de sus funcionalidades y precios sorprendentes.</span>
+          <a href="./productos.html#dormitorio">
+          <button>Ver Coleccion</button>
+          </a>
       </div>
       <div class="image-banner2">
           <img src="./img/banner2.jpg">
@@ -104,8 +106,10 @@
   <div class="banner3 text-center">
     <div class="text-banner3">
         <p>Acerca de Colinial</p>
-        <span>Somos una empresa dedicada a la fabricación de muebles de alta calidad<br> para el hogar y el oficina. Ofrecemos una amplia variedad de opciones, <br> desde sofás y sillones hasta mesas de comedor y escritorios.<br> Nos enorgullecemos de ofrecer un servicio al cliente excepcional<br> y estamos comprometidos a ayudar a nuestros clientes a encontrar el mueble perfecto para sus necesidades individuales.</span>
-        <a href="contactanos.html"><button>Ver Más</button></a>
+        <span>Somos una empresa dedicada a la fabricación de muebles de alta calidad<br> para el hogar y la oficina. Ofrecemos una amplia variedad de opciones, <br> desde sofás y sillones hasta mesas de comedor y escritorios.<br> Nos enorgullecemos de ofrecer un servicio al cliente excepcional<br> y estamos comprometidos a ayudar a nuestros clientes a encontrar el mueble perfecto para sus necesidades individuales.</span>
+        <a href="./contactanos.html">
+        <button>Ver Más</button>
+        </a>
     </div>
     <div class="image-banner3">
         <img src="./img/banner-3.jpg">
@@ -114,44 +118,33 @@
 
 </main>
 
-<footer>
-  <table>
-      <td class="footerColumna">
-          <img src="img/Logo.png" class="imgfooter">
-          <p> <br> ¿Quieres enterarte antes que nadie de nuestras ofertas, promociones y novedades?
-          </p>
-          <br>
-          <a class="novedad" href="contactanos.html">Recibir Novedades</a>
-      </td>
-      <td class="footerColumna">
-          <h4 class="h4-footer">Horarios de Atención</h4>
-          <br>
-          <p>L-V: DE 10:00 A 17:00h <br> S: DE 10:00 A 13:00h</p>        
-      </td>
-      <td class="footerColumna">
-          <h4 class="h4-footer">Redes Sociales</h4>
-          <br>
-
-          <a>
-          <img src="./img/Iconos/facebook.png">
-          </a>
-
-          <a>
-          <img src="./img/Iconos/whatsapp.png">
-          </a>
-          
-          <a>
-          <img src="./img/Iconos/instagram.png">
-          </a>
-
-          <a>
-          <img src="./img/Iconos/youtube.png">
-          </a>
-      </td>
-  </table>
-  <hr class="linea">    
-  <p id="copyR"><b>No Divide Studio</b> - Copyright 2022 Todos los derechos reservados.</p>
+<footer class="py-3 footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 text-center">
+        <img src="./img/logo.png" alt="Logo" width="200px">
+        <p class="text-light mt-3 footer-text-1">¿Quieres enterarte antes que nadie de nuestras ofertas, promociones y novedades?</p>
+        <a href="./contactanos.html">
+        <button class="btn btn-light mt-3 ">Recibir Novedades</button>
+        </a>
+      </div>
+      <div class="col-md-6 text-center">
+        <h5 class="text-light footer-text-2">Horarios de Atencion</h5><br>
+        <p class="text-light footer-text-3">L-V: DE 10:00 A 17:00</p>
+        <p class="text-light footer-text-3">S: DE 10:00 a 13:00h</p>
+      </div>
+      <div class="col-md-3 text-center redes">
+        <h5 class="text-light footer-text-4">Redes Sociales</h5>
+        <i class="footer-text-5 fab fa-facebook-square text-light mr-3"></i>
+        <i class="footer-text-5 fab fa-whatsapp-square text-light mr-3"></i>
+        <i class="footer-text-5 fab fa-instagram text-light mr-3"></i>
+        <i class="footer-text-5 fab fa-youtube text-light"></i>
+      </div>
+    </div>
+    <div class="text-center mt-5 footer-pie footer-text-6">No Divide Studio - Copyright © 2022 Todos los derechos reservados.</div>
+</div>
+  </div>
 </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
